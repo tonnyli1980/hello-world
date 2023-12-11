@@ -1,29 +1,29 @@
-public class CharTest 
+public class CharTest
 {
 
-    public static void main (String[] args) 
+	public static void main (String[] args)
 	{
-		// Ö±½ÓÖ¸¶¨µ¥¸ö×Ö·û×÷Îª×Ö·ûÖµ
-        	char aChar = 'a';
-		// Ê¹ÓÃ×ªÒå×Ö·ûÀ´×÷Îª×Ö·ûÖµ
+		// ç›´æ¥æŒ‡å®šå•ä¸ªå­—ç¬¦ä½œä¸ºå­—ç¬¦å€¼
+		char aChar = 'a';
+		// ä½¿ç”¨è½¬ä¹‰å­—ç¬¦æ¥ä½œä¸ºå­—ç¬¦å€¼
 		char enterChar = '\r';
-		// Ê¹ÓÃUnicode±àÂëÖµÀ´Ö¸¶¨×Ö·ûÖµ
+		// ä½¿ç”¨Unicodeç¼–ç å€¼æ¥æŒ‡å®šå­—ç¬¦å€¼
 		char ch = '\u9999';
-		// ½«Êä³öÒ»¸ö'Ïã'×Ö
+		// å°†è¾“å‡ºä¸€ä¸ª'é¦™'å­—
 		System.out.println(ch);
-		char zhong = '·è';
-		// Ö±½Ó½«Ò»¸öchar±äÁ¿µ±³ÉintÀàĞÍ±äÁ¿Ê¹ÓÃ
+		char zhong = 'ç–¯';
+		// ç›´æ¥å°†ä¸€ä¸ªcharå˜é‡å½“æˆintç±»å‹å˜é‡ä½¿ç”¨
 		int zhongValue = zhong;
-		System.out.println(zhong+"µÄÊıÖµÊÇ"+zhongValue);
-		// Ö±½Ó°ÑÒ»¸ö0~65535·¶Î§ÄÚµÄintÕûÊı¸³¸øÒ»¸öchar±äÁ¿
+		System.out.println(zhong+"çš„æ•°å€¼æ˜¯"+zhongValue);
+		// ç›´æ¥æŠŠä¸€ä¸ª0~65535èŒƒå›´å†…çš„intæ•´æ•°èµ‹ç»™ä¸€ä¸ªcharå˜é‡
 		char c = 97;
 		System.out.println(c);
 
-		// s±äÁ¿Ò»¸öÒıÓÃÀàĞÍµÄ±äÁ¿£¬ÊÇ×Ö·û´®ÊµÀıµÄÒıÓÃ
-		//String s = "²×º£ÔÂÃ÷ÖéÓĞÀá£¬À¶ÌïÓñÅ¯ÈÕÉúÑÌ";
+		// så˜é‡ä¸€ä¸ªå¼•ç”¨ç±»å‹çš„å˜é‡ï¼Œæ˜¯å­—ç¬¦ä¸²å®ä¾‹çš„å¼•ç”¨
+		//String s = "æ²§æµ·æœˆæ˜ç æœ‰æ³ªï¼Œè“ç”°ç‰æš–æ—¥ç”ŸçƒŸ";
 
 		String str = true + "";
 		System.out.println(str);
 
-    }
+	}
 }
